@@ -33,7 +33,77 @@
 </head>
 
 <body class="font-manrope">
-    <header class="md:container mx-auto md:px-16 lg:px-24 my-7 md:my-10 lg:my-14">
+    <header class="md:container mx-auto md:px-5 py-7 md:py-10 lg:py-14 bg-gradient-to-t from-white to-gray-100">
+        <!-- navbar -->
+        <div class="navbar bg-base-100 bg-transparent flex justify-between lg:justify-around">
+            <div class="">
+                <div class="flex items-center gap-2">
+                    <img src="./assets/up-right.png" alt="" class="size-7 bg-lime-300 rounded-full">
+                    <a class="font-extrabold text-3xl">Rinterio</a>
+                </div>
+            </div>
+            <div class="hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li class="font-extrabold"><a>Home</a></li>
+                    <li class="text-gray-500"><a>Services</a></li>
+                    <li class="text-gray-500"><a>Portfolio</a></li>
+                    <li class="text-gray-500"><a>Blogs</a></li>
+                    <li class="text-gray-500"><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="gap-3">
+                <button class="btn btn-circle bg-white hidden lg:flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+                <button class="btn btn-circle bg-white hidden lg:flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                </button>
+                <a class="btn bg-lime-300 rounded-3xl hidden lg:flex hover:bg-lime-500">Book Consult <img src="./assets/circle-arrows.png"
+                        alt="" class="size-7"></a>
+                <div class="dropdown dropdown-left">
+                    <div tabindex="0" role="button" class="btn btn-ghost p-0 lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- navbar end -->
+        <!-- banner -->
+        <div>
+            <div class="hero bg-base-200 min-h-screen bg-transparent">
+                <div class="hero-content text-center">
+                    <div class="">
+                        <img src="./assets/banner.png" alt="" class="w-4/5 md:w-1/2 mx-auto mb-5">
+                        <h1 class="text-3xl md:text-4xl lg:text-6xl font-extrabold">A barn house of this design has a striking appearance</h1>
+                        <p class="m-5 text-gray-500 text-sm md:text-base">
+                            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                        </p>
+                        <button class="btn bg-lime-200 rounded-3xl hover:bg-lime-400">View Details<img src="./assets/up-right.png" alt="" class="size-7 bg-lime-300 rounded-full"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </header>
     <main class="md:container mx-auto md:px-16 lg:px-24 my-7 md:my-10 lg:my-14">
