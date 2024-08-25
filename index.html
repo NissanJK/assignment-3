@@ -35,7 +35,7 @@
 <body class="font-manrope">
     <header class="md:container mx-auto md:px-5 py-7 md:py-10 lg:py-14 bg-gradient-to-t from-white to-gray-100">
         <!-- navbar -->
-        <div class="navbar bg-base-100 bg-transparent flex justify-between lg:justify-around">
+        <div class="navbar bg-base-100 bg-transparent flex justify-between lg:justify-around px-5 md:px-0">
             <div class="">
                 <div class="flex items-center gap-2">
                     <img src="./assets/up-right.png" alt="" class="size-7 bg-lime-300 rounded-full">
@@ -66,8 +66,8 @@
                             d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
                 </button>
-                <a class="btn bg-lime-300 rounded-3xl hidden lg:flex hover:bg-lime-500">Book Consult <img src="./assets/circle-arrows.png"
-                        alt="" class="size-7"></a>
+                <a class="btn bg-lime-300 rounded-3xl hidden lg:flex hover:bg-lime-500 text-black font-extrabold">Book
+                    Consult <img src="./assets/circle-arrows.png" alt="" class="size-7"></a>
                 <div class="dropdown dropdown-left">
                     <div tabindex="0" role="button" class="btn btn-ghost p-0 lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -87,18 +87,23 @@
                 </div>
             </div>
         </div>
-        <!-- navbar end -->
         <!-- banner -->
         <div>
             <div class="hero bg-base-200 min-h-screen bg-transparent">
                 <div class="hero-content text-center">
-                    <div class="">
+                    <div class="w-11/12">
                         <img src="./assets/banner.png" alt="" class="w-4/5 md:w-1/2 mx-auto mb-5">
-                        <h1 class="text-3xl md:text-4xl lg:text-6xl font-extrabold">A barn house of this design has a striking appearance</h1>
-                        <p class="m-5 text-gray-500 text-sm md:text-base">
-                            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                        <h1 class="text-3xl md:text-4xl lg:text-6xl font-extrabold text-black">A barn house of this
+                            design has a
+                            striking appearance</h1>
+                        <p class="m-5 text-gray-800 text-sm md:text-base font-medium">
+                            The barn house captivates with its blend of rustic charm and modern sophistication,
+                            featuring weathered wood, sleek metal accents, and large windows that flood the space with
+                            natural light.
                         </p>
-                        <button class="btn bg-lime-200 rounded-3xl hover:bg-lime-400">View Details<img src="./assets/up-right.png" alt="" class="size-7 bg-lime-300 rounded-full"></button>
+                        <button class="btn bg-lime-200 rounded-3xl hover:bg-lime-400 text-black font-bold">View
+                            Details<img src="./assets/up-right.png" alt=""
+                                class="size-7 bg-lime-300 rounded-full"></button>
                     </div>
                 </div>
             </div>
@@ -106,10 +111,30 @@
 
 
     </header>
-    <main class="md:container mx-auto md:px-16 lg:px-24 my-7 md:my-10 lg:my-14">
+    <main class="md:container mx-auto md:px-5 py-7 md:py-10 lg:py-14 bg-gray-200">
+        <!-- thoughtful design -->
 
     </main>
-    <footer>
+    <footer class="md:container mx-auto footer footer-center bg-base-200 text-base-content rounded p-10 bg-black">
+        <aside>
+            <div class="flex items-center gap-2 text-white">
+                <img src="./assets/up-right.png" alt="" class="size-7 bg-lime-300 rounded-full">
+                <a class="font-extrabold text-3xl">Rinterio</a>
+            </div>
+            <p class="font-medium text-gray-500">
+                The barn house captivates with its blend of rustic charm and modern sophistication,<br>featuring
+                weathered wood, sleek metal accents.
+            </p>
+        </aside>
+        <nav class="grid grid-cols-1 md:grid-cols-5 gap-5 md:gap-12 lg:gap-24 text-gray-300">
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">Services</a>
+            <a class="link link-hover">Portfolio</a>
+            <a class="link link-hover">Blogs</a>
+            <a class="link link-hover">Contact Us</a>
+        </nav>
+        <a class="btn bg-lime-300 rounded-3xl flex hover:bg-lime-500 text-black font-extrabold w-11/12 md:w-auto">Book
+            Consult <img src="./assets/circle-arrows.png" alt="" class="size-7"></a>
 
     </footer>
 </body>
